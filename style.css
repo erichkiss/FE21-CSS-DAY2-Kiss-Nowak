@@ -15,7 +15,7 @@ a:active {
 }
 
 body {
-    background: #f4f4f4 url(pagebg.gif) repeat-y top center;
+    background: #F4F4F4 url(pagebg.gif) repeat-y top center;
     font: 69%/1.5em 'Lucida Sans Unicode', 'Lucida Grande', verdana, arial, sans-serif;
     color: #333;
     margin: 0;
@@ -238,3 +238,4 @@ h3.archives span {
     padding: 10px;
     color: #FFFFFF;
 }
+
