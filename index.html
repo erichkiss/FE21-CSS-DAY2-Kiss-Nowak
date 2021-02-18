@@ -22,6 +22,30 @@
 			color: white;
 
 		}
+	
+		/* 5. List elements as direct child of ul 
+
+			Font-color to  #525D21, italic
+
+			6. List elements (class “strong”)  as direct child of span(class “years)
+
+			Font-color to #DD8804 */
+
+		ul > li {
+			color: #525D21;
+			font-style: italic;
+		}
+		
+		#explanation .danger {
+			color: brown;
+			font-weight: bold;
+			
+		}
+		 .years > .strong {
+			color: #DD8804;
+		 }
+		
+
 	</style>
 
 </head>
@@ -38,7 +62,8 @@
 		<div id="supportingText">
 			<div id="explanation">
 				<h3><span>What is Lorem Ipsum?</span></h3>
-				<p class="p1"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. <span class="danger">It has survived not only five centuries</span>, but also the leap into electronic typesetting, remaining essentially unchanged. 
+				<p class="p1"><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+					when an unknown printer took a galley of type and scrambled it to make a type specimen book. <span class="danger">It has survived not only five centuries</span>, but also the leap into electronic typesetting, remaining essentially unchanged. 
 					<ul>
 						<span class="years">
 							<li>1500</li>
